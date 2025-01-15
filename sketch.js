@@ -112,7 +112,7 @@ function keyPressed() {
     if (currentBox < 6) {
       userAnswers1[currentBox] += key; // Top row input
     } else {
-      userAnswers2[currentBox - 7] += key; // Bottom row input
+      userAnswers2[currentBox - 6] += key; // Bottom row input
     }
   }
   redraw();
